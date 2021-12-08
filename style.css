@@ -56,6 +56,7 @@ footer {
 
 .info-sub {
     display: flex;
+
 }
 
 .reason {
@@ -65,11 +66,10 @@ footer {
 }
 
 .reason img {
-    width: 200px;
+    width: auto;
     height: 200px;
-    object-fit: ;
     border-radius: 12px;
-    margin: 0px 0px 0px 0px;
+    margin: 30px 20px 30px 20px;
 }
 
 .reason p {
@@ -83,7 +83,20 @@ footer {
     flex-direction: column;
     background-color: #000080;
 }
+.testimonial p {
+    color: white;
+    font-size: 24px;
+    padding: 24px 24px 24px 24px;
+}
 
+.testimonial text {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: flex-end;
+    padding-right: 24px;
+}
 .right {
     color: white;
     display: flex;
@@ -93,7 +106,16 @@ footer {
     padding-right: 16px;
     font-size: 20px;
 }
-
+.sign {
+    display: flex;
+    align-items: center;
+    background-color: #000080;
+    color: white;
+    border-radius: 24px;
+    box-shadow: 2px 2px 3px black;
+    margin: 128px auto;
+    padding: 16px 16px;
+}
 li {
     padding: 4px;
 }
@@ -110,9 +132,20 @@ button {
     font-size: 16px;
     border-color: white;
     border-radius: 8px ;
+    width: 100px;
+    height: 40px;
 
 }
 
 #info {
     color: #000080;
+}
+
+#signbutton {
+    margin: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
