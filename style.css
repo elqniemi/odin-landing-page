@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    font-family: "Helvetica Neue", sans-serif;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #003399;
+}
+
+
+footer {
+    display: flex;
+    background-color: #003399;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+
+}
+
+.container {
+    display: flex;
+    height: 300px;
+    flex: auto;
+
+}
+
+.home {
+    display: flex;
+    background-color: #003399;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000080;
+}
+
+.right {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 16px;
+    font-size: 20px;
+}
+
+li {
+    padding: 4px;
+}
+
+h1 {
+    color: #FFCC00;
+    padding-left: 16px;
+}
